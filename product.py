@@ -6,7 +6,7 @@ def product_details(name, prod_id, quantity, price):
         f"Price          : {price}"
     )
     return result
-if _name_ == "_main_":
+if __name__ == "__main__":
     name="Laptop"
     prod_id="F1007"
     quantity=1
